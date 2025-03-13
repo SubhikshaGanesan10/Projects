@@ -30,7 +30,7 @@ Tech Stack: ASP.NET, C#, SQL ServerAn online ticket reservation platform enablin
 
 Clone the repository:
 
-git clone https://github.com/your-username/Projects.git
+git clone https://github.com/SubhikshaGanesan10/Projects.git
 
 Navigate to a project folder and follow its README for setup instructions.
 
