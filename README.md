@@ -9,8 +9,7 @@ This repository contains a variety of projects I've worked on, spanning mobile a
 
 /Food-Donation-App/README.md  
 /Ride-Sharing-App/README.md  
-/Cinema-Booking-System/README.md  
-/Remote-Sensing-Data/README.md  
+/Cinema-Booking-System/README.md   
 
 ## 🌟 Projects
 
