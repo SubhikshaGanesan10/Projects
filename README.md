@@ -38,7 +38,7 @@ Navigate to a project folder and follow its README for setup instructions.
 
 I welcome feedback and collaboration! If you have suggestions or want to work on something together, feel free to reach out.
 
-##📬 Contact
+## 📬 Contact
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/subhiksha-ganesan-85732619b/)
 - 📧 [Email](mailto:ganesansubhiksha@gmail.com)
