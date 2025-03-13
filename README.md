@@ -28,6 +28,7 @@ Tech Stack: ASP.NET, C#, SQL ServerAn online ticket reservation platform enablin
 ## 🚧 How to Use
 
 Clone the repository:
+
 ```bash
 git clone https://github.com/SubhikshaGanesan10/Projects.git
 
