@@ -31,6 +31,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/SubhikshaGanesan10/Projects.git
+```
 
 
 Navigate to a project folder and follow its README for setup instructions.
