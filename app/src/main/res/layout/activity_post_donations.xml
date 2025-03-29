@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eba937"
+    android:padding="16dp"
+    tools:context=".PostDonations">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:text="Add Donations"
+        android:textColor="#FFFFFF"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etDonorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Donor Name"
+        android:inputType="text"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etItemName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <EditText
+        android:id="@+id/etDonorAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Donor Address"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDonorName"
+        app:layout_constraintBottom_toTopOf="@+id/etItemName"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:inputType="text"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDonorAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etItemDescription"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etItemDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Item Description"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etItemName"
+        app:layout_constraintBottom_toTopOf="@+id/btnPostDonation"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnPostDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Donation"
+        android:textStyle="bold"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etItemDescription"
+        android:layout_marginTop="100dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

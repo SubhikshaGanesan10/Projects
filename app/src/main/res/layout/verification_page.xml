@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receiver Verification Process"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To ensure the credibility of receiver organizations, the application implements a verification process. Upon selecting the role of 'Receiver,' organizations are prompted to undergo verification by providing necessary information. Successful verification grants verified receiver organizations access to the receiver features of the application."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Verification Form -->
+    <LinearLayout
+        android:id="@+id/layoutVerificationForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/textDescription"
+        android:layout_marginTop="32dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <!-- Organization Name Input -->
+        <EditText
+            android:id="@+id/editTextOrganizationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Organization Name"
+            android:textColorHint="#FFFFFF"
+            android:fontFamily="@font/indie_flower_font_family"
+            android:textStyle="bold"
+            android:backgroundTint="#eba937"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Contact Person Input -->
+        <EditText
+            android:id="@+id/editTextContactPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Person"
+            android:fontFamily="@font/indie_flower_font_family"
+            android:textStyle="bold"
+            android:textColorHint="#FFFFFF"
+            android:backgroundTint="#eba937"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Contact Email Input -->
+        <EditText
+            android:id="@+id/editTextContactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:fontFamily="@font/indie_flower_font_family"
+            android:textStyle="bold"
+            android:textColorHint="#FFFFFF"
+            android:backgroundTint="#eba937"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Contact Phone Input -->
+        <EditText
+            android:id="@+id/editTextContactPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:fontFamily="@font/indie_flower_font_family"
+            android:textStyle="bold"
+            android:textColorHint="#FFFFFF"
+            android:backgroundTint="#eba937"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Verify Button -->
+        <Button
+            android:id="@+id/buttonVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#eba937"
+            android:textSize="18sp"
+            android:paddingStart="32dp"
+            android:fontFamily="@font/indie_flower_font_family"
+            android:textStyle="bold"
+            android:paddingEnd="32dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

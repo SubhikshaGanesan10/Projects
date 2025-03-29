@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verification Process"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Verification Code Input -->
+    <EditText
+        android:id="@+id/editTextVerificationCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#eba937"
+        android:hint="Enter Verification Code"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:padding="12dp"/>
+
+    <!-- Verify Button -->
+    <Button
+        android:id="@+id/buttonVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVerificationCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Confirm Verification"
+        android:fontFamily="@font/indie_flower_font_family"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#eba937"
+        android:textSize="18sp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+</RelativeLayout>

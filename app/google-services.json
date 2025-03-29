@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "153910207925",
+    "firebase_url": "https://hungerhero-c990d-default-rtdb.firebaseio.com",
+    "project_id": "hungerhero-c990d",
+    "storage_bucket": "hungerhero-c990d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153910207925:android:09661b77a32a9b3c2425fc",
+        "android_client_info": {
+          "package_name": "edu.uga.cs.hungerhero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANJw6zplMLaNZoY5lTk3aXdrX15751wy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
